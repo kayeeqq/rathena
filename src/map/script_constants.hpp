@@ -964,6 +964,7 @@
 	export_constant2("Eff_Heat",SC_BURNT);
 	export_constant2("Eff_Deepsleep",SC_DEEPSLEEP);
 	export_constant2("Eff_WhiteImprison",SC_WHITEIMPRISON);
+	export_constant2("Eff_Hallucination",SC_HALLUCINATION);
 
 	export_constant2("SC_ALL",SC_NONE);
 
@@ -1893,6 +1894,12 @@
 	export_constant(SC_RUSH_QUAKE1);
 	export_constant(SC_RUSH_QUAKE2);
 	export_constant(SC_G_LIFEPOTION);
+	export_constant(SC_HNNOWEAPON);
+	export_constant(SC_SHIELDCHAINRUSH);
+	export_constant(SC_MISTYFROST);
+	export_constant(SC_GROUNDGRAVITY);
+	export_constant(SC_BREAKINGLIMIT);
+	export_constant(SC_RULEBREAK);
 
 #ifdef RENEWAL
 	export_constant(SC_EXTREMITYFIST2);
@@ -4223,6 +4230,7 @@
 	export_constant(RC2_EP172BATH);
 	export_constant(RC2_ILLUSION_TURTLE);
 	export_constant(RC2_RACHEL_SANCTUARY);
+	export_constant(RC2_ILLUSION_LUANDA);
 	export_constant(RC2_MAX);
 
 	/* monster ai */
@@ -6973,6 +6981,7 @@
 	export_constant(IG_DUN_VOUCHER_BOX1);
 	export_constant(IG_DUN_VOUCHER_BOX2);
 	export_constant(IG_BLUEBOXOFQUESTIONS);
+	export_constant(IG_ENCHANT_STONE_BOX33);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);
@@ -9581,6 +9590,45 @@
 	export_constant(HAT_EF_ALICE_TEA);
 	export_constant(HAT_EF_C_DARK_LORD_CLOAK);
 	export_constant(HAT_EF_C_SAKURA_FUBUKI);
+	export_constant(HAT_EF_C_DARK_LORD_MANTEAU);
+	export_constant(HAT_EF_DECORATION_OF_MUSIC);
+	export_constant(HAT_EF_2023RTC_S_ROBE1);
+	export_constant(HAT_EF_2023RTC_S_ROBE2);
+	export_constant(HAT_EF_2023RTC_S_ROBE3);
+	export_constant(HAT_EF_C_CONSECRATE_F_AUREOLA);
+	export_constant(HAT_EF_C_BULB_WREATH);
+	export_constant(HAT_EF_MD_HOL_BARRIER1);
+	export_constant(HAT_EF_MD_HOL_BARRIER2);
+	export_constant(HAT_EF_MD_HOL_BARRIER3);
+	export_constant(HAT_EF_MD_HOL_BARRIER4);
+	export_constant(HAT_EF_MD_HOL_BARRIER5);
+	export_constant(HAT_EF_MD_HOL_BARRIER6);
+	export_constant(HAT_EF_MD_HOL_BARRIER7);
+	export_constant(HAT_EF_MD_HOL_BARRIER8);
+	export_constant(HAT_EF_MD_HOL_BARRIER9);
+	export_constant(HAT_EF_MD_HOL_BARRIER10);
+	export_constant(HAT_EF_MD_HOL_BARRIER11);
+	export_constant(HAT_EF_MD_HOL_BARRIER12);
+	export_constant(HAT_EF_MD_HOL_BARRIER13);
+	export_constant(HAT_EF_MD_HOL_BARRIER14);
+	export_constant(HAT_EF_MD_HOL_BARRIER15);
+	export_constant(HAT_EF_MD_HOL_BARRIER16);
+	export_constant(HAT_EF_MD_HOL_BARRIER17);
+	export_constant(HAT_EF_MD_HOL_BARRIER18);
+	export_constant(HAT_EF_MD_HOL_BARRIER19);
+	export_constant(HAT_EF_MD_HOL_BARRIER20);
+	export_constant(HAT_EF_C_FLUTTERING_HAZE);
+	export_constant(HAT_EF_EFST_CINNAMON);
+	export_constant(HAT_EF_AUTUMN_FULL_MOON);
+	export_constant(HAT_EF_NIFLHEIM_NIGHT_SKY);
+	export_constant(HAT_EF_C_ROS2023_CAPE_1);
+	export_constant(HAT_EF_BLACK_THUNDER_);
+	export_constant(HAT_EF_C_ROS2023_CAPE_2);
+	export_constant(HAT_EF_C_15TH_NOV_HELMET);
+	export_constant(HAT_EF_COSMIC_CONNECTION);
+	export_constant(HAT_EF_C_BABY_GLOOM);
+	export_constant(HAT_EF_WINTERNIGHTBELLS);
+	export_constant(HAT_EF_NIGHTSKYOFRUTIE);
 
 	/* pet catch */
 	export_constant(PET_CATCH_UNIVERSAL);
@@ -10028,12 +10076,21 @@
 	export_constant(UNT_LIGHTNING_LAND);
 	export_constant(UNT_VENOM_SWAMP);
 	export_constant(UNT_CONFLAGRATION);
-
 	export_constant(UNT_DEEPBLINDTRAP);
 	export_constant(UNT_SOLIDTRAP);
 	export_constant(UNT_SWIFTTRAP);
 	export_constant(UNT_FLAMETRAP);
-
+	export_constant(UNT_TWINKLING_GALAXY);
+	export_constant(UNT_STAR_CANNON);
+	export_constant(UNT_GRENADES_DROPPING);
+	export_constant(UNT_FUUMASHOUAKU);
+	export_constant(UNT_MISSION_BOMBARD);
+	export_constant(UNT_TOTEM_OF_TUTELARY);
+	export_constant(UNT_HYUN_ROKS_BREEZE);
+	export_constant(UNT_SHINKIROU);
+	export_constant(UNT_JACK_FROST_NOVA);
+	export_constant(UNT_GROUND_GRAVITATION);
+	export_constant(UNT_KUNAIWAIKYOKU);
 	export_constant(UNT_GD_LEADERSHIP);
 	export_constant(UNT_GD_GLORYWOUNDS);
 	export_constant(UNT_GD_SOULCOLD);
